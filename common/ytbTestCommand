@@ -1,0 +1,13 @@
+curl -H "Content-Type: application/json" -X POST --data '{"username":"Ly","password":"123456","email":"yuan.li2@tcl.com"}' http://127.0.0.1:3000/user/register
+
+http://172.24.66.26:3000/search/getsearchlist?keyword=NSQ&access_token=5YUkjdwi4NMDPn-DuAzFCAS6JcuOZMlv1V0xqCmYzd7VarvopbEWRa1tdYPX6voUk5hUynAq93b4PoEF4yZwsTITvkku6JwCqEf4IjFUerVZZdtidQSf__Ss8oKclY3gLjXpAacAQ3TNsU3O8KbGcB38eFoptElH3C2_-B9hGB8&pagecount=2&next_token=%22%22
+
+http://172.24.66.26:3000/task/gettasklist?access_token=5YUkjdwi4NMDPn-DuAzFCAS6JcuOZMlv1V0xqCmYzd7VarvopbEWRa1tdYPX6voUk5hUynAq93b4PoEF4yZwsTITvkku6JwCqEf4IjFUerVZZdtidQSf__Ss8oKclY3gLjXpAacAQ3TNsU3O8KbGcB38eFoptElH3C2_-B9hGB8&pagecount=2&next_token=0
+
+http://172.24.66.26:3000/video/getinfo?videoid=CL_SUzXIUuI&access_token=5YUkjdwi4NMDPn-DuAzFCAS6JcuOZMlv1V0xqCmYzd7VarvopbEWRa1tdYPX6voUk5hUynAq93b4PoEF4yZwsTITvkku6JwCqEf4IjFUerVZZdtidQSf__Ss8oKclY3gLjXpAacAQ3TNsU3O8KbGcB38eFoptElH3C2_-B9hGB8
+
+curl -H "Content-Type: application/json" -X POST --data '{"access_token":"5YUkjdwi4NMDPn-DuAzFCAS6JcuOZMlv1V0xqCmYzd7VarvopbEWRa1tdYPX6voUk5hUynAq93b4PoEF4yZwsTITvkku6JwCqEf4IjFUerVZZdtidQSf__Ss8oKclY3gLjXpAacAQ3TNsU3O8KbGcB38eFoptElH3C2_-B9hGB8","videoid":"CL_SUzXIUuI","format_tag":17,"preview":false}' http://127.0.0.1:3000/video/offlinedownload
+
+http://172.24.66.26:3000/search/getrecommendlist
+
+http://172.24.66.26:3000/search/getsearchlist?keyword=NSQ&access_token=iGIGt6FBh0mogAindp4VUUJVSu6Q92aOnhdKG8Oz9yF7mYGZV9fXN32aDyX6VCY5iQf7UitSmVpPIfDG9C0nxTHrKdGw1AP1_E_JMckvrR8Dc3RiVXQZ5VcRvjKUSWUOWHjmcV8adaBg7ddo3Vf7xluLrB-Wg-dFTVmx3Qt1vfk&page=1
